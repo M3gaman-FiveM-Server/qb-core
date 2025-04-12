@@ -493,7 +493,7 @@ QBShared.Jobs = {
 			['4'] = { name = 'Owner', isboss = true,  bankAuth = true, payment = 0 },
 		},
 	},
-	hoboburgerburger = { 
+	hoboburger = { 
 		label = 'Hobo Burger',
 		defaultDuty = true,
 		offDutyPay = false,
@@ -709,6 +709,18 @@ QBShared.Jobs = {
 			['4'] = { name = 'Owner', isboss = true,  bankAuth = true, payment = 0 },
 		},
 	},
+	gangbar = { 
+		label = 'Gang Bar',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+			['0'] = { name = 'Trainee', payment = 0 },
+			['1'] = { name = 'Employee', payment = 0 },
+			['2'] = { name = 'Assistant Manager', payment = 0 },
+			['3'] = { name = 'Manager', payment = 0 },
+			['4'] = { name = 'Owner', isboss = true,  bankAuth = true, payment = 0 },
+		},
+	},
 	tequila = { 
 		label = 'Tequila',
 		defaultDuty = true,
@@ -781,7 +793,7 @@ QBShared.Jobs = {
 			['4'] = { name = 'Owner', isboss = true,  bankAuth = true, payment = 0 },
 		},
 	},
-	unicorn = { 
+	vanillaunicorn = { 
 		label = 'Unicorn Club',
 		defaultDuty = true,
 		offDutyPay = false,
@@ -819,6 +831,18 @@ QBShared.Jobs = {
 	},
 	serenity = { 
 		label = 'Serenity Dispensary',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+			['0'] = { name = 'Trainee', payment = 0 },
+			['1'] = { name = 'Employee', payment = 0 },
+			['2'] = { name = 'Assistant Manager', payment = 0 },
+			['3'] = { name = 'Manager', payment = 0 },
+			['4'] = { name = 'Owner', isboss = true,  bankAuth = true, payment = 0 },
+		},
+	},
+	jollyjoints = { 
+		label = 'Jolly Joints Dispensary',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
